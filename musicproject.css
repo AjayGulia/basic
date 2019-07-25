@@ -1,0 +1,56 @@
+body{
+	background-color: #090935
+}
+.bgcolor{
+
+	/*background:linear-gradient(#2222a3,#771877);*/
+}
+
+.basicIcon{
+	/*color: white;
+   height: 10vh;
+	width: 100vw;
+    background-color:#090935;
+    position: fixed;*/ 
+     height: 9vh;
+	width: 100vw;
+	background-color:#090935;
+   }
+ .div0{
+	color: white;
+   height: 10vh;
+	width: 100vw;
+	position:fixed;
+	/*top: -2px;
+	left: -3px;*/
+     background-color:#090935;
+     display: inline-block;
+}
+.basicIcon div img{
+height: 10vh ; 
+width : 5vw;
+
+	}
+
+
+
+
+.div1{
+	width: auto;
+	display: inline-block;
+	position: relative;
+}
+
+
+.textpart{
+	height: 100vh;
+	width: 100vw;
+	color: white;
+	 background-color:#090935;
+	
+	 
+
+}
+#music{
+	position: relative;
+}
