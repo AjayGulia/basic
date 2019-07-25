@@ -1,56 +1,128 @@
 body{
-	background-color: #090935
+	background-color: #090935;
 }
-.bgcolor{
-
-	/*background:linear-gradient(#2222a3,#771877);*/
-}
-
-.basicIcon{
-	/*color: white;
-   height: 10vh;
+header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no;
+	overflow: hidden;
+	height: 10vh;
 	width: 100vw;
-    background-color:#090935;
-    position: fixed;*/ 
+
+
+/*.basicIcon{
+	
      height: 9vh;
 	width: 100vw;
 	background-color:#090935;
-   }
- .div0{
+   }*/
+
+ 
 	color: white;
-   height: 10vh;
+    height: 10vh;
 	width: 100vw;
-	position:fixed;
-	/*top: -2px;
-	left: -3px;*/
-     background-color:#090935;
-     display: inline-block;
+	position:sticky;
+    background-color:#090935;
+    display: inline-block;
+    
 }
-.basicIcon div img{
-height: 10vh ; 
-width : 5vw;
-
-	}
-
-
-
 
 .div1{
-	width: auto;
+	
 	display: inline-block;
 	position: relative;
-}
-
-
-.textpart{
-	height: 100vh;
-	width: 100vw;
-	color: white;
-	 background-color:#090935;
-	
-	 
-
+	top: -20px;
 }
 #music{
 	position: relative;
+   margin-left:2vw;
+}
+
+.space{
+	 margin-left: 20%;
+	 
+	 display: inline-block;
+	 position: relative;
+	 top: -75%;
+}
+
+.cornerImage img{
+     width : 8vw;
+     height: 10vh;
+}
+
+
+
+
+
+.search{
+	display: inline-block;
+	margin-left: 15%;
+	position: relative;
+	top: -69%;
+
+}
+#searchinside{
+	display: inline-block;
+	width: 20vw;
+	padding: 4px;
+	border-radius: 12px;
+    background-color: #6880ac;
+
+}
+
+#searchinside div{
+	display: inline-block;
+	margin-left: 45%;
+
+}
+
+
+.bell-icon{
+	display: inline-block;
+	margin-left: 2vw;
+}
+
+.bell-icon i:hover{
+    color: grey;
+}
+
+.image-sign{
+    display: inline-block;
+    margin-left: 3%;
+    
+}
+
+.image-sign img{
+	border-radius: 45%;
+	width: 5vw;
+	height: 10vh;
+	padding: 8px;
+
+}
+
+
+/* mamin section*/
+
+.hover-image{
+	display: flex;
+	flex-direction: row;
+	margin-left: 30px;
+}
+
+
+
+.hover-image img{
+	
+	padding: 4px;
+	margin: 4px;
+	margin-left: 20px;
+	width: 25%;
+	height: 300px;
+	transition: all ease-in-out;
+}
+
+.hover-image img:hover{
+	transform: scale(1.3);
+	
 }
